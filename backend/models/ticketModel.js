@@ -16,7 +16,7 @@ const ticketSchema = mongoose.Schema({
         required:[true, 'Please add a description']
     },
     status: {
-        type: Boolean,
+        type: String,
         required: true,
         enum: ['New', 'Open', 'Closed'],
         default: 'New',

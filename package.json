@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "support ticket app",
   "main": "server.js",
+  "engines": {
+    "node": "15.5.0"
+  },
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
